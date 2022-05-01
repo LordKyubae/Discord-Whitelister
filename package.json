@@ -1,0 +1,27 @@
+{
+  "name": "discord-whitelister",
+  "version": "1.0.0",
+  "description": "Whitelist Minecraft Players from Discord Text Channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "minecraft",
+    "whitelist"
+  ],
+  "author": "LordKyubae",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.3",
+    "rcon": "^1.1.0",
+    "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  }
+}
